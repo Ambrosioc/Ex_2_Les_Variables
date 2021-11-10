@@ -11,9 +11,24 @@ var man = true; // On assigne la variable avec un booléen (true/false)
 console.log("Nom : " + nom); // Affichage sur la console
 console.log("Age : " + age); // Affichage sur la console
 
-if(man === true){ // Ici
+if(man === true){
     console.log("Sexe : Homme");
 }else{
     console.log("Sexe : Femme")
 };
 
+// Deuxieme méthode d'ecriture
+
+console.log("Nom : " + nom); // Affichage sur la console
+console.log("Age : " + age); // Affichage sur la console
+
+if(man){ // Pour verifier l'inverse dans cette méthode nous alons utilisé "!" devant la variable (!man)
+    console.log("Sexe : Homme");
+}else{
+    console.log("Sexe : Femme")
+};
+
+// Autre méthode d'affichage
+
+console.log("Nom : %s", nom); // Nouvelle méthode affichage sur la console (%s pour les string)
+console.log("Age : %d", age); // Nouvelle méthode affichage sur la console (%d pour les décimal)
